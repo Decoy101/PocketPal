@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		67B80BAD2B8376A300CE007C /* PocketPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B80BAC2B8376A300CE007C /* PocketPalApp.swift */; };
-		67B80BAF2B8376A300CE007C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B80BAE2B8376A300CE007C /* ContentView.swift */; };
 		67B80BB12B8376A400CE007C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B80BB02B8376A400CE007C /* Assets.xcassets */; };
 		67B80BB42B8376A400CE007C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B80BB32B8376A400CE007C /* Preview Assets.xcassets */; };
+		67B80BBE2B83780E00CE007C /* PaymentActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B80BBD2B83780E00CE007C /* PaymentActivity.swift */; };
+		67B80BC02B837A3C00CE007C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B80BBF2B837A3C00CE007C /* Persistence.swift */; };
+		67B80BC72B837FEC00CE007C /* PPStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67B80BC52B837FEC00CE007C /* PPStore.xcdatamodeld */; };
+		67B80BC92B8380E000CE007C /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B80BC82B8380E000CE007C /* DashboardView.swift */; };
+		67B80BCB2B83813C00CE007C /* PaymentFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B80BCA2B83813C00CE007C /* PaymentFormView.swift */; };
+		67B80BCD2B8383EA00CE007C /* PaymentFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B80BCC2B8383EA00CE007C /* PaymentFormViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		67B80BA92B8376A300CE007C /* PocketPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B80BAC2B8376A300CE007C /* PocketPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketPalApp.swift; sourceTree = "<group>"; };
-		67B80BAE2B8376A300CE007C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		67B80BB02B8376A400CE007C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67B80BB32B8376A400CE007C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67B80BBD2B83780E00CE007C /* PaymentActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentActivity.swift; sourceTree = "<group>"; };
+		67B80BBF2B837A3C00CE007C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		67B80BC62B837FEC00CE007C /* PPStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PPStore.xcdatamodel; sourceTree = "<group>"; };
+		67B80BC82B8380E000CE007C /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		67B80BCA2B83813C00CE007C /* PaymentFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentFormView.swift; sourceTree = "<group>"; };
+		67B80BCC2B8383EA00CE007C /* PaymentFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentFormViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,11 @@
 		67B80BAB2B8376A300CE007C /* PocketPal */ = {
 			isa = PBXGroup;
 			children = (
+				67B80BC52B837FEC00CE007C /* PPStore.xcdatamodeld */,
+				67B80BBC2B83776100CE007C /* Model */,
+				67B80BBB2B83775100CE007C /* ViewModel */,
+				67B80BBA2B83774900CE007C /* View */,
 				67B80BAC2B8376A300CE007C /* PocketPalApp.swift */,
-				67B80BAE2B8376A300CE007C /* ContentView.swift */,
 				67B80BB02B8376A400CE007C /* Assets.xcassets */,
 				67B80BB22B8376A400CE007C /* Preview Content */,
 			);
@@ -65,6 +78,32 @@
 				67B80BB32B8376A400CE007C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67B80BBA2B83774900CE007C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67B80BC82B8380E000CE007C /* DashboardView.swift */,
+				67B80BCA2B83813C00CE007C /* PaymentFormView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67B80BBB2B83775100CE007C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				67B80BCC2B8383EA00CE007C /* PaymentFormViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		67B80BBC2B83776100CE007C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67B80BBD2B83780E00CE007C /* PaymentActivity.swift */,
+				67B80BBF2B837A3C00CE007C /* Persistence.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +176,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67B80BAF2B8376A300CE007C /* ContentView.swift in Sources */,
+				67B80BBE2B83780E00CE007C /* PaymentActivity.swift in Sources */,
+				67B80BCD2B8383EA00CE007C /* PaymentFormViewModel.swift in Sources */,
+				67B80BC72B837FEC00CE007C /* PPStore.xcdatamodeld in Sources */,
+				67B80BC92B8380E000CE007C /* DashboardView.swift in Sources */,
+				67B80BCB2B83813C00CE007C /* PaymentFormView.swift in Sources */,
+				67B80BC02B837A3C00CE007C /* Persistence.swift in Sources */,
 				67B80BAD2B8376A300CE007C /* PocketPalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +388,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		67B80BC52B837FEC00CE007C /* PPStore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67B80BC62B837FEC00CE007C /* PPStore.xcdatamodel */,
+			);
+			currentVersion = 67B80BC62B837FEC00CE007C /* PPStore.xcdatamodel */;
+			path = PPStore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 67B80BA12B8376A300CE007C /* Project object */;
 }
