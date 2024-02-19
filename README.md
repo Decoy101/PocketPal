@@ -16,9 +16,8 @@ PocketPal is a personal finance tracking iOS app designed to help users manage t
 - **CoreData**: CoreData is used for efficient data storage and management, allowing users to store their financial data securely on their device.
 - **Combine**: Combine is utilized for reactive programming and event handling, ensuring seamless integration and real-time updates.
 
+
 ## Screenshots
 
-![Simulator Screenshot - iPhone 15 Pro - 2024-02-19 at 23 40 40](https://github.com/Decoy101/PocketPal/assets/82807218/9df3277a-567f-419e-b7f2-9d4d63e29630)
-![Simulator Screenshot - iPhone 15 Pro - 2024-02-19 at 23 40 29](https://github.com/Decoy101/PocketPal/assets/82807218/4bf45353-21d8-470a-a351-4ab5098df69a)
-![Simulator Screenshot - iPhone 15 Pro - 2024-02-19 at 23 38 27](https://github.com/Decoy101/PocketPal/assets/82807218/3d10e8fe-8fbd-4da0-b802-bb170ab0539b)
-![Simulator Screenshot - iPhone 15 Pro - 2024-02-19 at 23 37 48](https://github.com/Decoy101/PocketPal/assets/82807218/00763c80-92e0-4b7c-8d2d-7c8925557413)
+![Screenshot 2024-02-19 at 11 49 04 PM](https://github.com/Decoy101/PocketPal/assets/82807218/a452aa2f-b9df-4ec3-952b-2ac958cf7c72) ![Screenshot 2024-02-19 at 11 50 18 PM](https://github.com/Decoy101/PocketPal/assets/82807218/a75b72cb-a299-4f5d-b2bc-3c69d8346c83) ![Screenshot 2024-02-19 at 11 52 01 PM](https://github.com/Decoy101/PocketPal/assets/82807218/4796fa08-2cf7-4823-ad06-8e454728dbd8) ![Screenshot 2024-02-19 at 11 53 26 PM](https://github.com/Decoy101/PocketPal/assets/82807218/16b2fe3d-d839-4d1b-a015-660384916e9e)
+
